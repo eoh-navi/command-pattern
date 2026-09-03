@@ -1,16 +1,16 @@
 package commandPattern;
 
-public class Tv implements Switch {
+public class Speaker implements Switch {
 
     @Override
     public String switchOn()
     {
-        return "\nTv is switching on";
+        return "Volume has Increased";
     }
 
     @Override
     public String switchOff()
     {
-        return "Tv is switching off\n";
+        return "Volume has Decreased\n";
     }
 }

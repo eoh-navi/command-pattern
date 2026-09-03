@@ -1,19 +1,21 @@
 package commandPattern;
 
 public class RemoteControl {
+
     private Command command;
-    public Command getCommand() {
+
+    public Command getCommand()
+    {
         return command;
     }
 
-    public void setCommand(Command command) {
+    public void setCommand(Command command)
+    {
         this.command = command;
     }
 
-    public void clickButton(){
-        command.execute();
+    public void clickButton()
+    {
+        System.out.println(command.execute());
     }
-
-
-
 }

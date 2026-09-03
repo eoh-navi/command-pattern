@@ -1,16 +1,16 @@
 package commandPattern;
 
-public class Tv implements Switch {
+public class Light implements Switch {
 
     @Override
     public String switchOn()
     {
-        return "\nTv is switching on";
+        return "Light is On";
     }
 
     @Override
     public String switchOff()
     {
-        return "Tv is switching off\n";
+        return "Light is Off";
     }
 }
